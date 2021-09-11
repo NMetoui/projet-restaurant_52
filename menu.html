@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Le 52 | restaurant familial</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    /> -->
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html">
+              <img src="images/logo.jpg" alt="" width="125px"
+            /></a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="index.html">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <!-- TODo: 22:20 -->
+            </ul>
+          </nav>
+          <a href="cart.html"
+            ><img src="images/cart.png" alt="" width="30px" height="30px"
+          /></a>
+          <img
+            src="images/menu.png"
+            alt=""
+            class="menu-icon"
+            onclick="menutoggle()"
+          />
+        </div>
+
+    <div class="small-container">
+      <div class="row row-2">
+        <h2>Menu</h2>
+        
+      </div>
+      <h3>Pizza</h3>
+      <div class="row">
+        <div class="col-4">
+          <a href="./menu-detailsp1.html"><img src="images/pizza/p1.jpg" alt="" /></a>
+          <h4>Margherita</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>8.900 DT</p>
+        </div>
+
+        <div class="col-4">
+          <a href="./menu-detailsp2.html"><img src="images/pizza/p2.jpg" alt="" /></a>
+          <h4>Napolitaine</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>11.900 DT</p>
+        </div>
+
+        <div class="col-4">
+           <a href="./menu-detailsp3.html"><img src="images/pizza/p3.jpg" alt="" /></a>
+          <h4>Thon</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>12.900 DT</p>
+        </div>
+        <div class="col-4">
+          <a href="./menu-detailsp4.html"><img src="images/pizza/p4.jpg" alt="" /></a>
+          <h4>4 fromages</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>21.900 DT</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <a href="./menu-detailsp5.html"><img src="images/pizza/p5.jpg" alt="" /></a>
+          <h4>4 saisons</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>13.900 DT</p>
+        </div>
+
+        <div class="col-4">
+<a href="./menu-detailsp6.html"><img src="images/pizza/p6.jpg" alt="" /></a>
+          <h4>4 viandes</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>17.900 DT</p>
+        </div>
+
+        <div class="col-4">
+     <a href="./menu-detailsp7.html"><img src="images/pizza/p7.jpg" alt="" /></a>
+          <h4>Merguez</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>12.900 DT</p>
+        </div>
+        <div class="col-4">
+         <a href="./menu-detailsp8.html"><img src="images/pizza/p8.jpg" alt="" /></a>
+          <h4>Végétarienne</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>12.900 DT</p>
+        </div>
+      </div>
+      <h3>Pasta</h3>
+      <div class="row">
+        <div class="col-4">
+            <a href="./menu-detailspas1.html"><img src="images/pasta/pas1.jpg" /></a>
+          <h4>Penne aux fromages</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>21.900 DT</p>
+        </div>
+
+        <div class="col-4">
+            <a href="./menu-detailspas2.html"><img src="images/pasta/pas2.jpg" /></a>
+          <h4>Penne mergez</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>15.900 DT</p>
+        </div>
+
+        <div class="col-4">
+                   <a href="./menu-detailspas3.html"><img src="images/pasta/pas3.jpg" /></a>
+
+          <h4>Spaghetti bolognaise</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>15.900 DT</p>
+        </div>
+        <div class="col-4">
+             <a href="./menu-detailspas4.html"><img src="images/pasta/pas4.jpg" /></a>
+
+          <h4>Tagliatelle bolognaise</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>15.900 DT</p>
+        </div>
+        <div class="col-4">
+                <a href="./menu-detailspas5.html"><img src="images/pasta/pas5.jpg" /></a>
+
+          <h4>Tagliatelle au saumon</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>23.900 DT</p>
+        </div>
+
+        <div class="col-4">
+                      <a href="./menu-detailspas6.html"><img src="images/pasta/pas6.jpg" /></a>
+
+          <h4>Ravioli ricotta</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>15.900 DT</p>
+        </div>
+
+        <div class="col-4">
+                    <a href="./menu-detailspas7.html"><img src="images/pasta/pas7.jpg" /></a>
+
+          <h4>lazagne</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>15.900 DT</p>
+        </div>
+        <div class="col-4">
+                      <a href="./menu-detailspas8.html"><img src="images/pasta/pas8.jpg" /></a>
+
+          <h4>Hachis parmentier</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>17.900 DT</p>
+        </div>
+      </div>
+<h3>Plats</h3>
+<div class="row">
+        <div class="col-4">
+          <img src="images/plats/pl1.jpg" alt="" />
+          <h4>Escalope poulet funghi</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>17.900 DT</p>
+        </div>
+
+        <div class="col-4">
+          <img src="images/plats/pl2.jpg" alt="" />
+          <h4>Gratin de pates au poulet</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>16.900 DT</p>
+        </div>
+
+        <div class="col-4">
+          <img src="images/plats/pl3.jpg" alt="" />
+          <h4>Calamars dorés</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>18.900 DT</p>
+        </div>
+        <div class="col-4">
+          <img src="images/plats/pl4.jpg" alt="" />
+          <h4>Baguette farcie</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>13.900 DT</p>
+        </div>
+        <div class="col-4">
+          <img src="images/plats/pl5.jpg" alt="" />
+          <h4>Filet de dorade grillé</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>23.900 DT</p>
+        </div>
+
+        <div class="col-4">
+          <img src="images/plats/pl6.jpg" alt="" />
+          <h4>chiken wings</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>14.900 DT</p>
+        </div>
+
+        <div class="col-4">
+          <img src="images/plats/pl7.jpg" alt="" />
+          <h4>Omelette aux fromages</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>6.900 DT</p>
+        </div>
+        <div class="col-4">
+          <img src="images/plats/pl8.jpg" alt="" />
+          <h4>Escalope de poulet à l'italienne</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>16.900 DT</p>
+        </div>
+      </div>
+      <h3>Salade</h3>
+<div class="row">
+        <div class="col-4">
+          <img src="images/salade/sa1.jpg" alt="" />
+          <h4>Salade cézar</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>9.900 DT</p>
+        </div>
+
+        <div class="col-4">
+          <img src="images/salade/sa2.jpg" alt="" />
+          <h4>Salade italienne</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>7.900 DT</p>
+        </div>
+
+        <div class="col-4">
+          <img src="images/salade/sa3.jpg" alt="" />
+          <h4>Salade niçoise</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>9.900 DT</p>
+        </div>
+        
+        </div>
+        <h3>Boisson</h3>
+<div class="row">
+        <div class="col-4">
+          <img src="images/boisson/b1.jpg" alt="" />
+          <h4>soda 1l</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>3.000 DT</p>
+        </div>
+
+        <div class="col-4">
+          <img src="images/boisson/b2.jpg" alt="" />
+          <h4>Canette soda 33cl</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>2.500 DT</p>
+        </div>
+
+        <div class="col-4">
+          <img src="images/boisson/b3.jpg" alt="" />
+          <h4>Eau minérale 1l</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>2.000 DT</p>
+        </div>
+        <div class="col-4">
+          <img src="images/boisson/b4.jpg" alt="" />
+          <h4>Nespresso</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>4.500 DT</p>
+        </div>
+        </div>
+      
+    </div>
+
+     <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+<h3>Télcharger votre Application</h3>
+            
+             <img src="./images/Tel.jpg" width="200px" height="200px">
+          </div>
+          <div class="footer-col-2">
+            <img src="images/logo.jpg" alt="" />
+            <p>
+              Réservations, Plats à emporter, Places assises, Chaises hautes
+              disponibles, Accès personnes handicapées, Wi-Fi gratuit, Accepte
+              les cartes bancaires
+            </p>
+          </div>
+          
+
+          <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>YouTube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+    <!-- JS for Toggle menu -->
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+    <!-- <script src="res.js"></script> -->
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script> -->
+  </body>
+</html>
+
